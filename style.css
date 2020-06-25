@@ -10,6 +10,29 @@ body {
 }
 
 /*------------------------------------*\
+  #GENEREAL DESIGN
+\*------------------------------------*/
+
+a {
+  text-decoration: none;
+}
+
+.cone--button {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  letter-spacing: 2.4px;
+  width: 10rem;
+  height: 2.5rem;
+  border: solid 2px;
+  border-radius: 24px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+/*------------------------------------*\
   #HEADER
 \*------------------------------------*/
 
@@ -17,4 +40,69 @@ header {
     width: 100vw;
     height: 5rem;
     background-color: #6200EA;
+    display: flex;
+    align-items: center;
 }
+
+.page--header{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+  
+}
+
+.sub--box {
+  color: #6200EA;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  display: flex;
+  position: absolute;
+  left: 0px;
+}
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  width: 80%;
+ }
+
+.navbar li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 2rem;
+}
+
+.navbar a {
+  color: #211138;
+  font-size: 0.75rem;
+  line-height: 5rem;
+  letter-spacing: 0.15rem;
+}
+
+.active, .navbar a:hover{
+  color: #6200EA;
+  border-bottom: solid 4px #6200EA;
+  
+}
+
